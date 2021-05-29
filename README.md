@@ -6,24 +6,38 @@
  Python 3.9.5
  Importante: versiones previas de python pueden presentar problemas en la comunicación con respuestas UDP
  
- Instrucciones de uso: 
+ ## Instrucciones de uso
  
  Ejecutar en consola o interprete de python el programa en el directorio respectivo
- Ejemplo:
+ 
+ ### Ejemplo:
+ 
  C:\users\Usuario1> python client_tcp_udp.py
  
- El programa posee los sigientes valores para modificar:
+ ## El programa posee los sigientes valores para modificar
  
-   "-u" "--user" 'Establece el numbre de usuario a utilizar'
-   "-p" "--port" 'Establece el puerto a utilizar'
-   "-s" "--server" 'Establece la dirección IP a utilizar'
-   "-m" "--mode" "Establece el tipo de usuario: s=standard(deafult) a=admin"
-  
- Valores por defecto:
-   --server = '10.2.126.2'
-   --port = 19876
-   --user = "jrequena.17"
-   --mode = "s"
+ -u --user | Establece el numbre de usuario a utilizar
+ 
+ -p --port | Establece el puerto a utilizar
+ 
+ -s --server | Establece la dirección IP a utilizar
+ 
+ -m --mode | "Establece el tipo de usuario: s=standard(deafult) a=admin
+ 
+ ## Valores por defecto
+ --server = '10.2.126.2'
+ 
+ --port = 19876
+ 
+ --user = "jrequena.17"
+ 
+ --mode = "s"
+ 
+ ## Ejemplo de uso entrada personalizada:
+ 
+ Estableciendo la direccion IP y el modo administrador para ver todos los pasos del programa
+ 
+ C:\users\Usuario1> python client_tcp_udp.py -s 10.2.126.18 -m a
  
  
  
